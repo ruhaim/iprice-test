@@ -1,0 +1,22 @@
+{
+  "name": "iprice-test",
+  "version": "1.0.0",
+  "description": "iprice-test",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "start" : "node ./src/index.js",
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruhaim/iprice-test.git"
+  },
+  "author": "Ruhaim Izmeth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruhaim/iprice-test/issues"
+  },
+  "homepage": "https://github.com/ruhaim/iprice-test#readme"
+}
