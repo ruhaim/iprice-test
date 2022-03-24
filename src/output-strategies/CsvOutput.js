@@ -19,8 +19,8 @@ export class CsvOutput extends IOutputStrategy {
 
   /**
    * Convert a string csv and write to a file.
-   * @param {string} text - The string to be converted to csv text, the file will be
-   * written at the {filepath} defined at the constructor.
+   * @param {string} text - The string to be converted to csv text, 
+   * the file will be written at the {filepath} defined at the constructor.
    * @return {string} "CSV created!" if the file created succeeds.
    */
   output(text) {

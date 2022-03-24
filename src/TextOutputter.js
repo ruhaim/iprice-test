@@ -20,7 +20,8 @@ export class TextOutputter {
 
   /**
    * Create a point.
-   * @param {IOutputStrategy[]} strategies - Array of IOutputStrategies that will be executed on output
+   * @param {IOutputStrategy[]} strategies - Array of IOutputStrategies that
+   *  will be executed on output
    */
   constructor(strategies) {
     this.#strategies = strategies;
@@ -29,8 +30,8 @@ export class TextOutputter {
   /**
    * Transform text based on assigned strategies and print result to console.
    * @param {string} text - The string to be transformed
-   * @return {void}
-   * @throws {Error} if one of the strategies errors out
+   * @return {void} - Logs an error for each strategry that fails
+   * 
    */
   output(text) {
     this.#strategies.forEach((strategy) => {
