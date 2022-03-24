@@ -1,4 +1,5 @@
 export class TextExtractor {
+    
     static extractCliArg() {
       const [, , ...inputParams] = process.argv;
       if (!inputParams.length) {
